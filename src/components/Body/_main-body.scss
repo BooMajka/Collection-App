@@ -1,0 +1,142 @@
+.numbers {
+    background-color: $color-yellow;
+    width: 100%;
+    height: 20rem;
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.numbers-unit {
+    font-family: $font-OS;
+    color: $color-dark-grey;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.numbers-unit h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.numbers-unit h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.numbers-unit p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.four-steps_main {
+    margin-top: 2rem;
+    background-color: $color-light-gray;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.four-steps_unit {
+    padding: 1rem 3rem;
+    position: relative;
+}
+.four-steps_icon {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $color-dark-grey;
+    margin-bottom: 1rem;
+}
+.icon1 {
+    background-image: url("../../img/Icon-1.svg");
+}
+.icon2 {
+    background-image: url("../../img/Icon-2.svg");
+}
+.icon3 {
+    background-image: url("../../img/Icon-3.svg");
+}
+.icon4 {
+    background-image: url("../../img/Icon-4.svg");
+}
+.four-steps_unit h3 {
+    font-family: $font-OS;
+    color: $color-dark-grey;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: $color-dark-grey 1px solid;
+}
+// .four-steps_unit h3::after {
+//     width: 2rem;
+//     height: 1rem;
+//     position: absolute;
+//     top: 1rem;
+//     left: 1rem;
+//     content: "";   
+//     color: $color-dark-grey;
+// }
+
+.four-steps_unit p {
+    font-family: $font-OS;
+    color: $color-dark-grey;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-light-gray;
+    margin-top: 4rem;
+}
+.about-pic {
+    display: block;
+    width: 100%;
+    height: 40rem;
+    background-image: url("../../img/People.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $color-dark-grey;
+}
+.about-signature {
+    background-image: url("../../img/Signature.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16rem;
+    right: 80px;
+    width: 10rem;
+    height: 10rem;
+}
+.helping-btn {
+    border:none;
+    text-transform: lowercase;
+}
+.helping-btn:hover, .current {
+    border: $color-dark-grey 0.2px solid;
+}
+.helping-p {
+    text-align: center;
+    color: $color-black;
+    padding: 0 12px;
+    font-family: $font-OS;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    margin: 4rem  6rem;
+}

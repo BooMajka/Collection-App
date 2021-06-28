@@ -1,0 +1,72 @@
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.hero-img {
+    background-image: url("../../img/Form-Hero-Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45%;
+    height: 40rem;
+}
+.helping-p .hero {
+    margin-left: -2rem;
+}
+.diamonds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.diamonds span {
+    border: $color-dark-grey 0.2px solid;
+    width:6rem;
+    height: 6rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    margin: 0.4rem;
+}
+.diamonds p{
+    font-family: $font-OS;
+    color: $color-dark-grey;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.important-section {
+    background-color: $color-yellow;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.important-section h1 {
+    font-family: $font-M;
+    color: $color-black;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+.important-section p {
+    font-family: $font-M;
+    color: $color-black;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-left: 2rem;
+}

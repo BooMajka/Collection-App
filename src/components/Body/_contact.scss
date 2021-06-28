@@ -1,0 +1,107 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 2rem;
+}
+.contact-img {
+    background-image: url("../../img/Background-Contact-Form.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 40rem; 
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12rem;
+}
+.contact-form_wrapper {
+    margin: 3rem 6rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.large-label {
+    font-family: $font-OS;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+    color: $color-black;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.input-class {
+    border: none;
+    border-bottom: $color-dark-grey 0.2px solid;
+    padding-bottom: 0.4rem;
+    margin-bottom: 2rem;
+}
+.input-class::placeholder {
+    font-family: $font-OS;
+    font-weight: 300;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    opacity: 0.5;  
+}
+.contact-wrapper-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.label-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem;
+}
+.large-textarea {
+    border: none;
+    border-bottom: $color-dark-grey 0.2px solid;
+    padding-bottom: 0.4rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+.large-textarea::placeholder {
+    font-family: $font-OS;
+    font-weight: 300;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+.large-label-txt {
+    font-family: $font-OS;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+    color: $color-black;
+    text-align: left;
+    margin-bottom: 1rem; 
+    margin-left: 1rem;
+}
+.contact-btn {
+    border: $color-dark-grey 0.2px solid;
+    background-color: white; 
+    border-radius: 6px;
+    font-family: $font-OS;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+    color: $color-black;
+    padding: 0 1rem;
+    align-self: flex-end;
+}
+
+.contact-btn:hover {
+    border: $color-dark-grey 0.2px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
