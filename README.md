@@ -4,10 +4,12 @@ The application to help donate unwanted items to a charity foundations.
 
 # Technology
 - React.js
+- React-App
 - React-Scroll
 - React-Router
 - Webpack
 - Google Firebase
+- Node.js
 - SASS
 - HTML
 
