@@ -12,43 +12,52 @@ export const Contact = ({id}) => {
  
 
     const ValidateSubmit = (e) => {
+        let isValid = true;
         e.preventDefault();
-        let timer;
+        // let timer;
         let mailRegex = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}/g;
 
         if(userName === "") {
             alert("Write your name");
             setError(true);
+            isValid = false;
         //     setError(true),() => {timer = setTimeout(() => {setError(false), 1000});
-        // } 
+        } 
         if(email === "" && !email.match(mailRegex)) {
             alert("Invalid email");
             setError(true);
+            isValid = false;
         } 
         if(message === "") {
             alert("Write your message"); 
             setError(true);
+            isValid = false;
         }
+
         if(userName !=="" && email !=="" && message !== "") {
             setSuccess(true);
-            const timer = setTimeout(() => {
-                setSuccess(false);
-                setError(false);
-            }, 1000);
+            isValid = true;
+        //     const timer = setTimeout(() => {
+        //         setSuccess(false);
+        //         setError(false);
+        //     }, 1000);
+        // }
         }
-    }
-    clearTimeout(timer);
+   
+    // clearTimeout(timer);
+console.log(fire);
 
-        console.log(userName, email, message);
-
-
+    if(isValid){
         fire.collection("inbox").add({
             userName,
             email,
             message,
         });
+    }
+    
 
     };
+
 
     
     return (
